@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.1;net461</TargetFrameworks>
+    <AssemblyName>ExtendedRegistrationBuilder</AssemblyName>
+    <RootNamespace>ExtendedRegistrationBuilder</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>A CustomReflectionContext that extends the behaviour of RegistrationBuilder so as to work with methods.
+This is not thread safe.</Description>
+    <Authors>Tony Hallett</Authors>
+    <PackageTags>MEF;RegistrationBuilder;Methods</PackageTags>
+    <Title>Extended Registration Builder</Title>
+    <ProjectUrl>https://github.com/tonyhallett/ExtendedRegistrationBuilder</ProjectUrl>
+    <RepositoryUrl>https://github.com/tonyhallett/ExtendedRegistrationBuilder.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.ComponentModel.Composition" Version="5.0.0" />
+    <PackageReference Include="System.ComponentModel.Composition.Registration" Version="5.0.0" />
+    <PackageReference Include="System.Reflection.Context" Version="5.0.0" />
+  </ItemGroup>
+</Project>
